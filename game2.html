@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--
+    HTML made by Baylee Balsimo Ketelhut
+    June 15, 2023-->
+
+<head>
+
+    <!--we need a style sheet to define the styles for our page-->
+    <!--how to link css-->
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>Save the Cat!</title>
+    <!--This is the pafge title-->
+
+</head>
+
+<body><!--Body is the actual webpage-->
+
+    <div>
+        <header>
+
+            <h1>
+                Don't Let the Cat get Hit by the Asteroids!
+            </h1>
+
+            <p>
+                Use the Start/Stop buttons to keep the cat from hitting the asteroids.
+            </p>
+
+        </header>
+
+    </div>
+
+    <div>
+        <!--NAVIGATION-->
+
+        <nav>
+            <h2>
+                Navigation
+            </h2>
+            <a href="./index.html">Home</a><br>
+            <a href="./boards.html">Boards</a><br>
+            <a href="./game.html">Play CRAPS</a><br>
+            <a href="./game2.html">Save the Cat!</a>
+        </nav>
+
+    </div>
+
+
+    <div id="bodyTextCat"><!-- This will be the cat that moves! -->
+        <!--my attempt at making a galaga type game!-->
+        <marquee id="rain" width="60%" direction="down" height="150px" scrollamount="20"><img src="asteroid.png" id="asteroid"
+                width="100"></marquee>
+        <!--this is the moving cat-->
+        <marquee id="myMarquee" direction="right" width="80%" scroll amount="15">
+            <img src="cat.7.gif" id="nineTails" width="500">
+        </marquee>
+        <br>
+        <br>
+
+        <!-- BUTTONS -->
+        <br>
+        <br>
+        <!--thes buttons are for the start/stop picture, where it will be able to move throughout the page-->
+        <p>
+            <center>
+                <button id="startButton" onclick="startFun();">Start</button>
+                <button id="stopButton" onclick="stopFun();">Stop</button>
+                <!--this will make the image move left/right on the screen!!!-->
+                <!--<img src="cat.7.gif" id="nineTails" style=position:absolute width="500">-->
+                <script src="code.js"></script>
+            </center>
+        </p>
+
+    </div>
+
+    <br>
+    <br>
+
+    <footer style="text-align: left;">
+        <!--this is the footer of the page, it is aligned left so the /div does not apply to this function-->
+
+        <h4 style=color:cornflowerblue>
+            Contact informaton:
+        </h4>
+
+        <p style=color:rgb(228,121,183)>
+            Baylee Balsimo Ketlhut<br>
+            Phone: (800) 658-5744<br>
+            Address: 1234 E. Main St.<br>
+            Phoenix, AZ 85208
+        </p>
+    </footer>
+
+</body>
+
+</html>
+<!--The page has to know what kind of code it should be reading <html>-->

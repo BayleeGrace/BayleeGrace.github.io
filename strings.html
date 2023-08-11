@@ -1,0 +1,66 @@
+<!--use "! tab" to input first amount of code (html) automatically-->
+<!DOCTYPE html>
+<html lang="en">
+
+    <!--
+        Strings page for User Input
+        Baylee Balsimo Ketelhut
+        06/05/2023
+        baybalsi@uat.edu
+    -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--we need a link to the css file-->
+    <link href = "strings.css" rel = "stylesheet" type = "text/css">
+    <!--title for the website-->
+    <title>Strings Page</title>
+    <script src="code.js"></script>
+</head>
+
+<body>
+
+    <div>
+
+    <h1>Welcome to my strings page</h1><br><br>
+    <img id="pic" src="security.png" width="300"><br><br>
+    <h2>Please login below</h2><br>
+    <div id="loginStatus">Login status</div><br>
+        <form id="creditSubmit" onsubmit="return false">
+            <!--form id makes an input box for an entry-->
+            First Name: <input type="text" id="fName"><br><br>
+            <!--input lets the user enter something into the box-->
+            Last Name: <input type="text" id="lName"><br><br>
+            Zip Code: <input type="text" id="zCode"><br><br>
+            <!--you can do number instead of text and the box will have arrows that increase number-->
+        <input type="submit" onclick="checkCreds();" id="button" class="button">
+
+        <br>
+        <br>
+        <br>
+        <br>
+
+    </div>
+
+    </form>
+
+<h1>Palindrome Checker</h1>
+
+<div id="palinStatus">
+    <h3>Palindrome Status</h3>
+</div>
+<form id="palinSubmit" onSubmit="return false">
+    <br>
+    <input type="text" id="palinInput">
+    <input type="submit" onClick="checkPalin();" class="button" id="palinButton">
+    <br>
+    <br>
+    <br>
+</form>
+
+</body>
+
+
+</html>

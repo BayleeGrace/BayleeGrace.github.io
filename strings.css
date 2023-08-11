@@ -1,0 +1,40 @@
+/*change body color,etc.*/
+body {
+    background-color: cornflowerblue;
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+    border-style: solid;
+    border-color: aliceblue;
+    border-radius: 50px;
+    border-width: 10px;
+}
+
+#pic {
+    border-style: solid;
+    border-radius: 30px;
+    border-width: 5px;
+    /*this added a bordert to the image*/
+}
+
+#button {
+    width: 100px;
+    height: 30px;
+    /*i assigned ID to the button in strings.html, this is how you decorate and change the size*/
+    background-color:rgb(228,121,183);
+    border-radius: 10px;
+    /*border radius makes the box of the "Submit" buttom rounded!!!*/
+    border-color: rgb(46, 10, 75);
+}
+
+#palinButton {
+    width: 100px;
+    height: 30px;
+    /*i assigned ID to the button in strings.html, this is how you decorate and change the size*/
+    background-color:rgb(228,121,183);
+    border-radius: 10px;
+    /*border radius makes the box of the "Submit" buttom rounded!!!*/
+    border-color: rgb(46, 10, 75);
+}
+

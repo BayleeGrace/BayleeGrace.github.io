@@ -1,0 +1,110 @@
+body {
+    background-color: rgb(46, 10, 75);
+    color: cornflowerblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav {
+    height: 6000px;
+    /*from bottom to top of the page*/
+    width: 200px;
+    float: left;
+    /*this makes the content of the page float to the left of the navigation*/
+    padding: 5px;
+    /*this looks like it creates a break between the RT edge of the page to the Nav*/
+    line-height: 30px;
+    /*brings it 30px from the top down*/
+}
+
+footer {
+    text-align: left;
+    margin-right: 200px;
+    /*this adds a margin reading since the navigation part takes up space*/
+    /*this is not needed here anymore*/
+}
+
+#bodytext {
+    margin-right: 200px;
+
+}
+
+#nineTails {
+    text-align: center;
+}
+
+#craps {
+    /*in index, put the following before the part you want to center: <div style="text-align: center" id="craps">*/
+    text-align: center;
+    margin-right: 200px;
+}
+
+header {
+    text-align: center;
+}
+
+.blink {
+    animation: blinker 1.7s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
+  }
+  @keyframes blinker { to { opacity: 0; } }
+  
+  .waitingForConnection2 {
+    animation: blinker2 0.6s cubic-bezier(1, 0, 0, 1) infinite alternate;  
+  }
+  @keyframes blinker2 { to { opacity: 0; } }
+  
+  .waitingForConnection3 {
+    animation: blinker3 1s ease-in-out infinite alternate;  
+  }
+  @keyframes blinker3 { to { opacity: 0; } }
+
+h1 {
+    color: cornflowerblue;
+}
+
+#playSoundButton {
+    width: 100px;
+    height: 30px;
+    /*i assigned ID to the button in strings.html, this is how you decorate and change the size*/
+    background-color:rgb(228,121,183);
+    border-radius: 10px;
+    /*border radius makes the box of the "Submit" buttom rounded!!!*/
+    border-color: rgb(46, 10, 75);
+}
+
+#startButton {
+    width: 100px;
+    height: 30px;
+    /*i assigned ID to the button in strings.html, this is how you decorate and change the size*/
+    background-color:rgb(228,121,183);
+    border-radius: 10px;
+    /*border radius makes the box of the "Submit" buttom rounded!!!*/
+    border-color: rgb(46, 10, 75);
+}
+
+#stopButton {
+    width: 100px;
+    height: 30px;
+    /*i assigned ID to the button in strings.html, this is how you decorate and change the size*/
+    background-color:rgb(228,121,183);
+    border-radius: 10px;
+    /*border radius makes the box of the "Submit" buttom rounded!!!*/
+    border-color: rgb(46, 10, 75);
+}
+
+#playCrapsButton {
+    width: 100px;
+    height: 30px;
+    /*i assigned ID to the button in strings.html, this is how you decorate and change the size*/
+    background-color:rgb(228,121,183);
+    border-radius: 10px;
+    /*border radius makes the box of the "Submit" buttom rounded!!!*/
+    border-color: rgb(46, 10, 75);
+}
+
+table, th, td {
+    border: 2px solid rgb(228,121,183);
+    border-collapse: collapse;
+    text-align: left;
+    background-color: rgb(76, 50, 128);
+    color: aliceblue;
+}

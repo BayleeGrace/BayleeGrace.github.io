@@ -1,0 +1,81 @@
+<html lang="en">
+
+<!--HTML made by Baylee B.K. on May 31, 2023-->
+
+<head>
+
+    <!--we need a style sheet to define the styles for our page-->
+    <!--how to link css-->
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <!--this links the two pages together, html will reflect the styles given to us in the style sheet-->
+    <title>Baylee's CRAPS Game</title>
+    <!--This is the pafge title-->
+
+</head>
+
+<body>
+
+    <div>
+        <!--div divides the page-->
+        <header>
+            <!--divides heading from all of body-->
+            <h1>
+                Let's Have Some Fun Playing CRAPS!
+            </h1>
+        </header>
+
+    </div>
+
+    <!--this is for navigation!-->
+    <nav>
+        <h2>
+            Navigation
+        </h2>
+        <a href="./index.html">Home</a><br>
+        <a href="./boards.html">Boards</a><br>
+        <a href="./game.html">Play CRAPS</a><br>
+        <a href="./game2.html">Save the Cat!</a>
+    </nav>
+
+    <br>
+    <br>
+
+    <div id="craps">
+        <h2 style=color:cornflowerblue><span class="blink">CRAPS</span></h2>
+            <p style=color:cornflowerblue>
+            Die 1 result: <div id="die1res">Press "Play CRAPS" to start.</div><br>
+            Die 2 result: <div id="die2res">Press "Play CRAPS" to start.</div><br>
+            Sum of dice: <div id="dicesum">Press "Play CRAPS" to start.</div><br>
+            Game result: <div id="gameres">Press "Play CRAPS" to start.</div><br>
+            <!--semicolon (below) is the terminatory, once the code reads this it will know to execute a function. Never forget terminators!-->
+            <button id="playCrapsButton" onclick="playCraps();">Play CRAPS</button>
+            </p>
+            <!--you can use script to input js code, but this is NOT recommended!!!-->
+            <!--example of source, do not use in html file!!!-->
+            <script src="code.js"></script>
+            <!--when you link two files (above src) always link when you start the new file-->
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+    <footer style="text-align: left;">
+        <!--this is the footer of the page, it is aligned left so the /div does not apply to this function-->
+
+        <h4 style=color:cornflowerblue>
+            Contact informaton:
+        </h4>
+
+        <p style=color:rgb(228,121,183)>
+            Baylee Balsimo Ketlhut<br>
+            Phone: (800) 658-5744<br>
+            Address: 1234 E. Main St.<br>
+            Phoenix, AZ 85208
+        </p>
+    </footer>
+
+</body>
+
+</html>
+<!--The page has to know what kind of code it should be reading <html>-->
